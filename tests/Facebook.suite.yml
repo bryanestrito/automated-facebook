@@ -1,0 +1,8 @@
+actor: FacebookTester
+modules:
+    enabled:
+        - \Helper\Facebook
+        - WebDriver:
+             url: 'http://www.facebook.com/'
+             browser: chrome
+             window_size: 1024x768
