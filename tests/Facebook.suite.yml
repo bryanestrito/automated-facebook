@@ -6,3 +6,7 @@ modules:
              url: 'http://www.facebook.com/'
              browser: chrome
              window_size: 1024x768
+             capabilities:
+                chromeOptions:
+                  args:
+                    - disable-notifications
